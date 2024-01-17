@@ -1,0 +1,12 @@
+node_modules
+.vscode
+.git
+.DS_Store
+
+dist
+build
+coverage
+test
+
+.env
+.npmrc
