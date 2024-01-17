@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+      "target": "es2022",
+      "module": "NodeNext",
+      "moduleResolution": "NodeNext",
+      "strict": true,
+      "isolatedModules": false,
+      "esModuleInterop": true,
+      "forceConsistentCasingInFileNames": true,
+      "skipLibCheck": true,
+      "verbatimModuleSyntax": true
+    },
+    "include": ["src", "test", "vitest.config.ts"],
+    "exclude": ["node_modules", "dist", "coverage"]
+  }
+  
