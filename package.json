@@ -6,14 +6,20 @@
   "main": "dist/index.js",
   "scripts": {
     "start": "tsx src/index.ts",
-    "test": "vitest  --config vitest.config.ts",
-    "test:ui": "vitest --ui",
-    "test:run": "vitest run",
-    "build": "tsc -p tsconfig.build.json"
+    "build": "tsc -p tsconfig.build.json",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:ui": "vitest --ui"
   },
   "devDependencies": {
     "@types/node": "20.11.0",
+    "@typescript-eslint/eslint-plugin": "6.19.0",
+    "@typescript-eslint/parser": "6.19.0",
     "@vitest/ui": "1.2.1",
+    "eslint": "8.56.0",
+    "eslint-config-prettier": "9.1.0",
+    "prettier": "3.2.4",
     "tsx": "4.7.0",
     "typescript": "5.3.3",
     "vitest": "1.2.1"
